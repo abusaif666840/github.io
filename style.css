@@ -1,0 +1,115 @@
+
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main{
+    background-color: rgb(67, 238, 195);
+    padding: 50px 40px;
+    box-shadow: 0 0 10px 0;
+}
+
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_box .form_input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form_box .insert_btn{
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* #load_table{
+    overflow-x: scroll;
+} */
+
+table{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgb(151, 148, 148);
+}
+
+table thead{
+    background-color: black;
+    color: white;
+}
+
+table thead th{
+    padding: 10px 0;
+}
+
+table tbody tr{
+    background-color: rgb(255, 255, 255);
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgb(176, 245, 216);
+}
+
+table tbody td{
+    padding: 7px;
+}
+
+.edit_btn,.delete_btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.update_btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.edit_btn,.update_btn{
+    background-color: green;
+}
+
+.delete_btn{
+    background-color: red;
+}
+
+
+.back_btn{
+    text-align: center;
+    display: block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0px;
+    border-radius: 3px;
+}
+
+.update_main{
+    margin-top: 90px;
+}
+
